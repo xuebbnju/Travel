@@ -16,25 +16,8 @@
 <script >
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        title: '南京汤山',
-        desc: '享受特色温泉“冷雾温泉”，感受冰凉体验',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/13/0cd5a9a57ae0d1b9b935ec604ce0f9bf.water.jpg_200x200_9b808f51.jpg'
-      }, {
-        id: '0002',
-        title: '南京汤山',
-        desc: '享受特色温泉“冷雾温泉”，感受冰凉体验',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/13/0cd5a9a57ae0d1b9b935ec604ce0f9bf.water.jpg_200x200_9b808f51.jpg'
-      }, {
-        id: '0003',
-        title: '南京汤山',
-        desc: '享受特色温泉“冷雾温泉”，感受冰凉体验',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1411/13/0cd5a9a57ae0d1b9b935ec604ce0f9bf.water.jpg_200x200_9b808f51.jpg'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
