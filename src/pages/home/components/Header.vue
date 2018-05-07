@@ -25,7 +25,7 @@ export default {
   color: #fff
   .header-left
     width: .64rem
-    float: left
+    // float: left
     .back-icon
       text-align:center
       font-size:.4rem
@@ -40,7 +40,7 @@ export default {
     color:#ccc
     padding-left:.2rem
   .header-right
-    float: right
+    // float: right
     width: 1.24rem
     text-align:center
     .arrow-icon
