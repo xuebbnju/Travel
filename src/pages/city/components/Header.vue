@@ -8,13 +8,7 @@
 </template>
 <script >
 export default {
-  name: 'CityHeader',
-  components: {},
-  data () {
-    return {}
-  },
-  methods: {},
-  mounted () {}
+  name: 'CityHeader'
 }
 </script>
 <style lang="stylus" scoped>
