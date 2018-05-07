@@ -5,10 +5,13 @@
   </div>
   <div class="header-input">
     <span class="iconfont ">&#xe632;</span>
+    输入城市/景点/游玩主题
   </div>
-  <div class="header-right">{{city}}
-     <span class="iconfont arrow-icon">&#xe64a;</span>
-  </div>
+  <router-link to='/city'>
+    <div class="header-right">{{city}}
+       <span class="iconfont arrow-icon">&#xe64a;</span>
+    </div>
+  </router-link>
 </div>
 </template>
 <script >
@@ -22,7 +25,7 @@ export default {
 <style lang="stylus" scoped>
 @import "~style/varibles.styl"
 .header
-  line-height: .86rem
+  line-height: $headerHeight
   display: flex
   background-color: $bgColor
   color: #fff
@@ -43,7 +46,7 @@ export default {
     color:#ccc
     padding-left:.2rem
   .header-right
-    // float: right
+    color: #fff
     width: 1.24rem
     text-align:center
     .arrow-icon
